@@ -1,4 +1,39 @@
 # basic-Vite
+
+## Membuat Project
+Buat file vite
+```git
+  npm init
+```
+Ubah type di package.json menjadi module
+## Menjalankan Aplikasi
+
+## JavaScript
+
+## TypeScript
+
+## Build
+
+## Node Dependency
+
+## CSS
+
+## CSS Preprocessor
+
+## JSON
+
+## Static Assets
+
+## Preview
+
+## Configuration
+
+## Multi Page Application
+
+## Plugins
+
+## Template
+
 <!-- 
 ---
 
