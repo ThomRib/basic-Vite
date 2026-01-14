@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello Vite</title>
+    <!-- import css -->
+    <style>
+        @import url("style.css");
+        @import url("sample.sass");
+    </style>
+</head>
+<body>
+<h1>hello vite</h1>
+<h2>support SASS</h2>
+<img src="vite.jpg" alt="vite" style="height: 100px; width: auto;">
+<script type="module">
+    // jalankan Js
+    import {sayHello} from "./say-hello.js";
+
+    // jalankan Ts
+    import {sayGoodbye} from "./say-goodbye.ts";
+
+    // uuid
+    import {v4} from "uuid";
+
+    // import json
+    import * as person from "./person.json";
+
+    // import filetxt
+    import textFile from "./hello.txt?raw";
+
+    sayHello('Eko');
+    sayGoodbye('Budi');
+    console.info(v4());
+    console.info(person);
+    console.info(person.name);
+    console.info(person.web);
+    console.info(textFile);
+</script>
+</body>
+</html>
