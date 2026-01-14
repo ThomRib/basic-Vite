@@ -5,9 +5,16 @@ Buat file vite
 ```git
   npm init
 ```
-Ubah type di package.json menjadi module
+Ubah type di package.json menjadi module</br>
+Menginstall Vite Dependency
+```git
+  npm install --save-dev vite
+```
 ## Menjalankan Aplikasi
-
+Menjalankan dengan terminal
+```git
+  npx vite
+```
 ## JavaScript
 
 ## TypeScript
